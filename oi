@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#experiencia">Experiência Profissional</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contatos</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Eu sou [Seu Nome], um profissional dedicado e apaixonado por [Sua Área de Atuação]. Tenho [X] anos de experiência na área e estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.</p>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência Profissional</h2>
+        <ul>
+            <li><strong>[Posição Atual/Recente]</strong> - [Nome da Empresa] (Ano de Início - Presente)
+                <p>[Descrição das responsabilidades e conquistas]</p>
+            </li>
+            <li><strong>[Posição Anterior]</strong> - [Nome da Empresa] (Ano de Início - Ano de Término)
+                <p>[Descrição das responsabilidades e conquistas]</p>
+            </li>
+            <!-- Adicione mais experiências conforme necessário -->
+        </ul>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <ul>
+            <li><strong>[Nome do Projeto]</strong>
+                <p>[Descrição do projeto, tecnologias utilizadas, e o que foi alcançado]</p>
+            </li>
+            <li><strong>[Nome do Projeto]</strong>
+                <p>[Descrição do projeto, tecnologias utilizadas, e o que foi alcançado]</p>
+            </li>
+            <!-- Adicione mais projetos conforme necessário -->
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contatos</h2>
+        <p>Você pode entrar em contato comigo através dos seguintes meios:</p>
+        <ul>
+            <li>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/seulinkedin" target="_blank">Meu Perfil no LinkedIn</a></li>
+            <li>GitHub: <a href="https://github.com/seugithub" target="_blank">Meu Perfil no GitHub</a></li>
+            <!-- Adicione mais contatos conforme necessário -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
